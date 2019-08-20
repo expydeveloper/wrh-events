@@ -18,8 +18,6 @@ import "./validators";
 import "./filters";
 import { version as AppVersion } from "../package.json";
 
-require("../static/resources/css/custom.css");
-
 Vue.use(BootstrapVue);
 
 Vue.prototype.$eventsBus = new Vue();

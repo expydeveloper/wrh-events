@@ -22,14 +22,13 @@
 </template>
 
 <script>
-import LoginPage from "./components/pages/LoginPage";
 import VersionAlert from "./components/partials/VersionAlert";
 import MainLayout from "./components/layouts/MainLayout";
 import UtilMixin from "./components/mixins/UtilMixin"
 
 export default {
   name: "App",
-  components: { MainLayout, VersionAlert, LoginPage },
+  components: { MainLayout, VersionAlert },
   mixins: [UtilMixin],
   data() {
     return {

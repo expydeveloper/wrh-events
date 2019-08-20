@@ -142,6 +142,10 @@ table th a:hover {
   margin-top: 40px !important;
 }
 
+.mar-top50 {
+  margin-top: 50px !important;
+}
+
 /* bottom */
 .mar-bot0 {
   margin-bottom: 0 !important;
@@ -408,4 +412,14 @@ datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td
 
 .card-header {
   background-color: #ffffff;
+}
+
+.metronic-header {
+  height: 80px;
+  background-color: #fff !important;
+  box-shadow: 0 0 40px 0 rgba(82, 63, 105, .1);
+}
+
+.metronic-header a{
+  color: #434349;
 }

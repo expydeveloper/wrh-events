@@ -149,6 +149,7 @@ export default {
       this.$http.delete("session").then(
         function() {
           self.$store.state.currentUser = {};
+          window.location = "/login";
         },
         function(error) {
           self.showDefaultServerError(error);
